@@ -525,6 +525,22 @@ This section collects irregularities that are probably/maybe not due to mistakes
 - l. 3973: _« En ma maisun ad une caitive franche ._
   - Maybe just ill-formed, if not, apocope on _une_ or _caitive_.
 
+### m:12[10]
+- l. 179: _Des ore cumencet le cunseill que mal prist ._
+  - probably _or-ore_ alternation; the most common form is _or_ (adverbe, DMF `lemma="or2"`)
+  - (4épC)
+- l. 303: _Quant ço veit Guenes que ore s' en rit Rollant ,_
+  - probably _or-ore_ alternation; the most common form is _or_ (adverbe, DMF `lemma="or2"`)
+    - cf. l. 176
+  - or non written elision in _que ore_
+- l. 359: _Mielz est que sul moerge que tant bon chevaler ._
+  - _moerge_ = _meurs-je_ ('that I die')
+  - as l. 3826, postverbal _je/jou_ fall into the extrametrical position of the epic break.
+  - There still one extra syllable...
+- l. 365: _Entret en sa veie , si s' est achiminez ._
+  - Precocious deletion of final _-t_ in _entret_, which allows for elision.
+  - (4épC)
+
 ## Cases of no-schwa vowel elided
 
 ### m:9[10]
@@ -532,7 +548,6 @@ This section collects irregularities that are probably/maybe not due to mistakes
 
 ### m:11[10] not with 4épC or 6épC*
 >\* Exclusion of 4épC and 6épC is due to the fact that the PAM cannot count the extrametrical syllable as being extrametrical. It is the user that must exclude the supernumerary syllable. Those lines are m:11[10] but they are well-formed, because m:11[10] with 4épC or 6épC is actually m:10[10].
-
 
 - l. 180: _« Seignurs barons , dist li emperere Carles ,_
   - Two possibilities:
@@ -639,6 +654,14 @@ This section collects irregularities that are probably/maybe not due to mistakes
 - l. 3954: _Ki hume traïst sei ocit e altroi ._
   - Contraction in _ki hume_
 
+### m:12[10]
+- l. 6: _Fors Sarraguce , ki est en une muntaigne ._
+  - Contraction on _ki est_
+  - (4épC)
+- l. 246: _Respunt dux Neimes : « Jo irai , par vostre dun !_
+  - Contraction on _jo irai_
+  - (4épC)
+
 ## Cases of medial schwas not to analyse (in my PhD) but still to keep:
 
 ### m:9[10]
@@ -712,3 +735,11 @@ There are often problems with numbers that are noted in latin style (e.g. .C. fo
 - l. 3772: _Carles l' oïd e si nobilie baron ._
   - Here, _nobilie_ can be a latin graphic form for _noble_; that would produce a well-formed line.
   - Or it can be an ill-formed line... Corrected by deleted _e_.
+
+#TODO
+- [x] Lines with less than 9 syllables
+- [x] Lines m:9
+- [ ] Check breaks in m:10?
+- [ ] Lines m:11 without 4épC and 6épC
+  - [ ] Check breaks in m:11 with 4épC and 6épC?
+- [ ] Lines m:12

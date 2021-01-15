@@ -8,6 +8,7 @@ This document collects irregular lines in the _Chanson de Roland_, in the editio
 
 >Note that metrical breaks are referred to with the PAM conventions: the position of the break is indicated by a number, and the type by the following: 'ma' for 'masculine' (oxytonic word before the break), 'épC' for 'epic break before a consonant-initial word', 'épV' for 'epic break before a vowel-initial word' (including <h> when it does not prohibit elision), 'ly' for 'lyric' and 'ej' for 'enjambante'. So that '4ma' mean that the break falls after the fourth syllable, which is the tonic of an oxytonic word, etc.
 
+
 ## Problems in the edition
 This section collects irregularities that are probably/maybe due to errors in the edition of the text and/or its XML formatting.
 
@@ -34,6 +35,7 @@ This section collects irregularities that are probably/maybe due to errors in th
 ## Problems not related to schwas nor other weak vowels contraction
 This section collects irregularities that are probably/maybe not due to mistakes in the file but to the reality of the line in the manuscript **and** that are not due to final schwas irregularities. It is organised by the number of metrically-relevant syllables assessed by the PAM.
 > For instance, m:9[10] means that the concerned lines have 9 metrically-relevant syllables while they are supposed to have 10.
+
 
 ### m:9[10]
 - l. 434: _Pris e liez serez par poësted_
@@ -132,9 +134,9 @@ This section collects irregularities that are probably/maybe not due to mistakes
   - 1 missing syllable.
   - Short edits _Si come il est_.
 
-
 ### m:11[10] not with 4épC or 6épC*
 >\* Exclusion of 4épC and 6épC is due to the fact that the PAM cannot count the extrametrical syllable as being extrametrical. It is the user that must exclude the supernumerary syllable. Those lines are m:11[10] but they are ill-formed, because m:11[10] with 4épC or 6épC is actually m:10[10].
+
 
 - l. 28: _Mandez Carlun , a l' orguillus e al fier ,_
   - Short edits _a l'orguillus al fier_ and he is probably right.
@@ -324,6 +326,7 @@ This section collects irregularities that are probably/maybe not due to mistakes
 
 ### m:11[10] not with 4épC or 6épC*
 >\* Exclusion of 4épC and 6épC is due to the fact that the PAM cannot count the extrametrical syllable as being extrametrical. It is the user that must exclude the supernumerary syllable. Those lines are m:11[10] but they are ill-formed, because m:11[10] with 4épC or 6épC is actually m:10[10].
+
 
 - l. 21: _Si me guarisez e de mort e de hunte ! »_
   - Short edits _m'gurarisez_ !
@@ -529,6 +532,7 @@ This section collects irregularities that are probably/maybe not due to mistakes
 
 ### m:11[10] not with 4épC or 6épC*
 >\* Exclusion of 4épC and 6épC is due to the fact that the PAM cannot count the extrametrical syllable as being extrametrical. It is the user that must exclude the supernumerary syllable. Those lines are m:11[10] but they are well-formed, because m:11[10] with 4épC or 6épC is actually m:10[10].
+
 
 - l. 180: _« Seignurs barons , dist li emperere Carles ,_
   - Two possibilities:

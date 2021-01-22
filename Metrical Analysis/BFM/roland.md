@@ -8,6 +8,24 @@ This document collects irregular lines in the _Chanson de Roland_, in the editio
 
 >Note that metrical breaks are referred to with the PAM conventions: the position of the break is indicated by a number, and the type by the following: 'ma' for 'masculine' (oxytonic word before the break), 'épC' for 'epic break before a consonant-initial word', 'épV' for 'epic break before a vowel-initial word' (including <h> when it does not prohibit elision), 'ly' for 'lyric' and 'ej' for 'enjambante'. So that '4ma' mean that the break falls after the fourth syllable, which is the tonic of an oxytonic word, etc.
 
+>Note that a line than can belong to several categories (because of incertainty of the analysis) or that does belong to several categories (because of several ill-formedness) is copied in its different categories. Only exception to that: all lines that are not in the 'Problems not related to schwas nor other weak vowels contraction' category could actually be in this category, as we can never be totally sure that an irregularity is due to phonological behavior and not to lapsus calami.
+
+
+## Overview
+|m:\_[10]|  Qté 	|  Taux  	|
+|------	|:----:	|:------:	|
+| m:7  	|   2  	| 00.05% 	|
+| m:8  	|   4  	| 00.10% 	|
+| m:9  	|  50  	| 01.25% 	|
+| m:10 	| 3666 	| 91.72% 	|
+| m:11 	|  170 	| 05.00% 	|
+| m:12 	|  91  	| 02.28% 	|
+| m:13 	|  10  	| 00.25% 	|
+| m:14 	|   3  	| 00.08% 	|
+| m:15 	|   1  	| 00.03% 	|
+| _Σ_   |_3997_ | _100%_ 	|
+
+>In the table above, lines that are scanned by the pam as m:11 with 4épC and/or 6épC have been added to m:10.
 
 ## Problems in the edition
 This section collects irregularities that are probably/maybe due to errors in the edition of the text and/or its XML formatting.
@@ -137,7 +155,6 @@ This section collects irregularities that are probably/maybe not due to mistakes
 ### m:11[10] not with 4épC or 6épC*
 >\* Exclusion of 4épC and 6épC is due to the fact that the PAM cannot count the extrametrical syllable as being extrametrical. It is the user that must exclude the supernumerary syllable. Those lines are m:11[10] but they are ill-formed, because m:11[10] with 4épC or 6épC is actually m:10[10].
 
-
 - l. 28: _Mandez Carlun , a l' orguillus e al fier ,_
   - Short edits _a l'orguillus al fier_ and he is probably right.
 - l. 408: _Envolupet fut d' un palie alexandrin :_
@@ -226,8 +243,7 @@ This section collects irregularities that are probably/maybe not due to mistakes
     - l. 3226: _E l' oitme est de Nigres e la noefme de Gros_
   - But in the other two occurrences of this formulary colon, _X_ is a two syllables long oxyton, which induce an ill-formed line if _noefme_ /ˈnœfmə/: there on extra syllable. Maybe apocope on _noefme_ is OK?
     - The other line is l. 3256: _L' oidme est d' Argoilles e la noefme de Clarbone ,_, with a 4épC.
-
-  The problem is probably not related to schwa: _e la noefme ('ninth') de X_ is a formulary colon, where _X_ is a one syllable word oxyton or a two syllables paroxyton. It should not be a two syllables oxyton, as here.
+  - The problem is probably not related to schwa: _e la noefme ('ninth') de X_ is a formulary colon, where _X_ is a one syllable word oxyton or a two syllables paroxyton. It should not be a two syllables oxyton, as here.
 - l. 3321: _Baligant ad ses cumpaignes trespassees ._
   - This is not a case of problem with the syllabification and/or the phonological representation of _compaigne_ (Cf. lines 912, 1087 and 3032)
 - l. 3323: _« Venez , paien , kar jon irai en l' estree . »_
@@ -262,6 +278,156 @@ This section collects irregularities that are probably/maybe not due to mistakes
 - l. 3938: _Munter l' unt fait en une mule d' Arabe ;_
   - Probably _une mule arabe_. But note that the AND have _arabe_ for `lemma=Arabie`.
 - l. 3987: _Culcez s' est li reis en sa cambre voltice ._
+
+### m:12[10]
+- l. 569: _Lessez la folie , tenez vos al saveir ._
+  - With 4épC, there's one extra syllable in the first colon.
+- l. 599: _N' asemblereit jamais Carles si grant esforz ;_
+  - There no possibility to do an epic break there; maybe apocope in _Carles_ but still one extra syllable.
+- l. 608: _La traïsun jurat e si s' en est forsfait ._
+- l. 646: _E vingt hostages , des plus gentilz desuz cel . »_
+  - One extra syllable in the last colon
+  - (4épC)
+- l. 994: _Paien s' adubent des osbercs sarazineis ,_
+  - One extra syllable (probably in _sarazineis_)
+  - (4épC)
+- l. 1014: _Que malvaise cançun de nus chantet ne seit !_
+  - Can't tell if it is just an ill-formed line or a line with two irregular schwas.
+- l. 1278: _Trenchet li le coer , le firie e le pulmun ,_
+  - There's probably not only to much syllables but too much words.
+- l. 1359: _La hanste briset e esclicet josqu' as poinz ._
+  - There is one extra syllable in the final colon
+  - (4épC)
+- l. 1363: _U est vostre espee , ki Halteclere ad num ?_
+  - One extra non schwa syllable in the first colon
+  - (4épC)
+- l. 1368: _Que ses cumpainz Rollant li ad tant demandee ,_
+  - Maybe contraction in _li ad_, but still one extra syllable. May just be ill-formed.
+- l. 1436: _Ço est li granz dulors por la mort de Rollant ._
+  - Contraction in _ço est_
+  - Still one extra syllable. Probably _deul_ instead of _dulors_.
+- l. 1437: _Franceis i unt ferut de coer e de vigur ;_
+  - There's simply two extra syllables there. Following one other m:12 line!
+- l. 1495: _Beste nen est nule ki encontre lui alge ._
+  - One extra syllable, probably in the first colon (in order to allow for a 4épC)
+  - But it can also be elsewhere if one applies contraction in _ki encontre_ (?)
+- l. 1691: _« Bel sire , chers cumpainz , pur Deu , que vos en haitet ?_
+  - Should not be analyzed as a schwa-specific irregularity because:
+    - even though there is a IPh boundary after _sire_, apocope or extrametricality of _-e_ in _sire_ would made the line impossible to break.
+    - Therefore, it is just an ill-formed line with no plausible explanation.
+  - l. 1765: _Naimes li duc l' oïd , si l' escultent li Franc ._
+    - Apocope on _deivent_ (third plural person) (cf. l. 1765)
+    - still one extra syllable in the second colon
+- l. 1958: _Ne a muiler ne a dame qu' aies veüd_
+  - Multiple transformations can be applied on this line:
+    - One can think of contracting _ne a_, but it cannot be done on both _ne a_ because that would made the line impossible to break.
+    - One can think of contracting the hiatus in _veüd_, but it seems to be the canonical form (participle of _voir_, 'see') and the laisse is assonated in /u/.
+    - At the end of the day, there is no obvious way of 'correcting' this line which may just be ill-formed.
+- l. 1960: _Vaillant a un dener que m' i aies tolut ,_
+  - One can think of contracting _aies_ in one syllable, but that would create a 5-syllables colon, which does not exist in Roland. It would require to also consider the same colon as being ill-formed, so this correction have no avantage over directly considering it ill-formed for no phonological reasons.
+- l. 2100: _Rumput est li temples , por ço que il cornat ._
+  - Contraction in _que il_ is not a good solution, as it would create a 5 syllables colon.
+  - There is probably one extra syllable in the first colon, which deletion would allow for 4épC and make the line wellformed.
+- l. 2142: _Dist l' arcevesque : « Fel seit ki ben n' i ferrat !_
+  - There's one extra non schwa syllable in the second colon
+  - (4épC)
+- l. 2154: _Espiez e lances e museraz enpennez ;_
+  - One extra syllable in the last colon
+  - (4épC)
+- l. 2329: _Jo l' en cunquis e Escoce e Vales Islonde_
+  - Maybe an apocope in _Vales_, but there is still one extra syllable in the second colon.
+- l. 2433: _Lessez gesir les morz tut issi cun il sunt ,_
+- l. 2446: _Sur l' erbe verte descent li reis en un pred ,_
+  - One non-schwa extra syllable in the last colon
+  - (4épC)
+- l. 2465: _Il n' en i ad barge ne drodmund ne caland ._
+  - Probably one extra non-schwa syllable in the first colon, which would authorize for 4épC.
+- l. 2483: _Tolez lur les seles , lé freins qu' il unt es chefs ,_
+  - Probably one extra non-schwa syllable in the first colon, which would authorize for 4épC.  
+- l. 2550: _E prenent sei a braz ambesdous por loiter ;_
+  - Two extra non final schwa syllables in the second colon.
+- l. 2553: _Aprés icele li vien un' altre avisiun ,_
+  - Problem with the syllabification of _avisiun_ ('mental representation, thought, etc.' in DMF, lemma `avision`):
+    - it has dieresis in lines 725 and 836
+    - But seems to be in syneresis here. No other examples in Roland.
+  - (4épC)
+- l. 2584: _Par les mains le pendent desur une culumbe ,_
+  - There's one extra syllable in the first colon
+  - (4épC)
+- l. 2617: _E tuz ses ydeles quë il soelt adorer ,_
+  - There's one extra syllable in the first colon
+  - Weirdly enough, our edition and Short's (l. 2619) have _que il_, corresponding to non abreviated _que il_ in the ms. (47v). What's remarkable here is that Short haven't corrected the first colon, but it is probable that it is indeed the first colon that is illformed, and that the second is a correct 6-syllables colon with _que il_.
+- l. 2678: _E a mei venget pur reconoistre sun feu ._
+  - Maybe apocope on _reconoistre_, or just ill-formed (prefix?)
+  - (4épC)
+- l. 2696: _Dit cascun a l' altre : « Caitifs , que devendrum ?_
+  - Maybe confusion _cascun ~ chaque_?
+  - (4épC)
+- l. 2697: _Sur nus est venue male confusïun :_
+  - One extra syllable in the first colon.
+  - Like the previous line!
+- l. 2699: _Li quens Rollant li trenchat ier le destre poign ;_
+  - One extra syllable in the last colon
+  - Apocope on _le_ is not plausible
+- l. 2721: _E ! lasse , que nen ai un hume ki m' ociet ! »_
+  - Final schwa apocope is not probable here: both apocope should be located in the same colon, and non shows conditions for expectable schwa apocope.
+- l. 2722: _Dist Clarïen : « Dame , ne parlez mie itant !_
+  - One extra syllable in the last colon.
+  - (6épC)
+- l. 3182: _Li altrer fut ocis le bon vassal Rollant_
+  - Contraction in _li altrer_
+  - Still one extra syllable: apocope on _altrer_? Or just ill-formed.
+- l. 3226: _E l' oitme est de Nigres e la noefme de Gros ,_
+  - See l. 3242.
+  - Probably _E_ is supernumerary in the first colon.
+- l. 3256: _L' oidme est d' Argoilles e la noefme de Clarbone ,_
+  - See l. 3242.
+- l. 3543: _Si vait ferir celui ki le dragun teneit ,_
+  - Probably _cil-celui_ alternation
+  - Still one extra syllable. Maybe contraction _ki le_ -> _kil_?
+    - To be checked.
+- l. 3544: _Qu' Ambure cravente en la place devant sei_
+  - Misterious first colon. The XML says: `<note resp="#cmn" type="internal"> Qu'Ambure cravente (Nom propre ou numéral 'tous deux, le dragon etl'enseigne' ?) Un Amborre est cité v. 3297, voir note de Moignet) </note>`
+- l. 3618: _Paien s' en turnent , ne volt Deus qu' il i remainent ._
+    - Maybe a problem with the /i/ sequence in _qu'il i_?
+    - Or a internal schwa deletion in _remainent_
+    - Or just an illformed line...
+- l. 3646: _Or set il ben que elle n' est mais defendue ._
+  - Non written contraction in _que elle_
+  - Still one extra syllable.
+- l. 3704: _Ço dist al rei : « O est Rollant le catanie ,_
+  - Two extra syllables in the second colon.
+  - (_catanie_ is `lemma="capitaine"`)
+- l. 3722: _Desur les espalles ad la teste clinee ._
+  - Probably a _desur-sur_ alternation
+  - in this case, 4épC.
+- l. 3764: _Seignors , jo fui en l' ost avoec l' empereür ,_
+  - Two extra syllables, in the first or the second colon.
+- l. 3785: _U l' emperere les noz dous cors en asemble ,_
+  - One extra syllable in the last colon.
+  - (4épC)
+- l. 3969: _Hom ki traïst altre , nen est dreiz qu' il s' en vant ._
+
+### m:13[10]
+- l. 400: _L' emperere meïsmes ad tut a sun talent ;_
+  - Probable apocope or syncope on _emperere_
+  - Still on extra syllable in the first colon to provoke 4épC.
+    - Note that _meïsme(s)_ with dieresis is the regular form.
+- l. 401: _Cunquerrat li les teres d' ici qu' en Orient . »_
+  - Line probably just illformed:
+    - The extract in passed time, so _cunquerrat_ should not have syncope.
+- l. 686: _De Marcilie s' en fuient por la chrestïentet_
+- l. 1494: _Petites les oreilles , la teste tute falve ;_
+- l. 1687: _Ne mes seisante , que Deus i ad esparniez ;_
+- l. 2133: _Ne orguillos , ne malvais hume de male part ,_
+  - even with two apocopes, the last colon ad one extra syllable...
+- l. 2184: _Iloec truvat Gerin e Gerer sun cumpaignun ,_
+- l. 2822: _A itel hunte , sire , mon seignor ai perdut ! »_
+  - Very probably due to interpollation of _sire_
+- l. 3703: _As li Alde venue , une bele damisele ;_
+  - One extra no schwa syllable in the first colon.
+    - Apocope on _alde_ is not plausible, given the /ldv/ cluster it would create.
+  - Apocope on _une_ or _bele_ in the second colon?
 
 ## Problems possibly related to final schwas
 This section collects irregularities that are probably/maybe not due to mistakes in the file but to the reality of the line in the manuscript **and** that are probably due to final schwas irregularities.
@@ -326,7 +492,6 @@ This section collects irregularities that are probably/maybe not due to mistakes
 
 ### m:11[10] not with 4épC or 6épC*
 >\* Exclusion of 4épC and 6épC is due to the fact that the PAM cannot count the extrametrical syllable as being extrametrical. It is the user that must exclude the supernumerary syllable. Those lines are m:11[10] but they are ill-formed, because m:11[10] with 4épC or 6épC is actually m:10[10].
-
 
 - l. 21: _Si me guarisez e de mort e de hunte ! »_
   - Short edits _m'gurarisez_ !
@@ -540,6 +705,107 @@ This section collects irregularities that are probably/maybe not due to mistakes
 - l. 365: _Entret en sa veie , si s' est achiminez ._
   - Precocious deletion of final _-t_ in _entret_, which allows for elision.
   - (4épC)
+- l. 383: _Er matin sedeit li emperere suz l' umbre ,_
+  - There is one non-schwa problem in the first colon
+  - The first colon can be repared by contraction or elision in _li emperere_
+- l. 613: _Se en rereguarde troevet le cors Rollant ,_
+  - Non written elision in _se en_
+  - (4épC)
+- l. 783: _Li empereres apelet ses niés Rollant :_
+  - Two solutions:
+    - Contraction in _li empereres_
+    - Apocope in _empereres_ or _apelet_
+  - (4épC or 6épC)
+- l. 946: _E cil respundent : « A vostre comandement !_
+  - Two solutions:
+    - Syncope in _comandement_
+    - Or apocope on _vostre_
+  - (4épC)
+- l. 1014: _Que malvaise cançun de nus chantet ne seit !_
+  - Can't tell if it is just an ill-formed line or a line with two irregular schwas.
+- l. 1138: _Par penitence les cumandet a ferir ._
+  - Precocious deletion of final _-t_ in _cumandet_, which allows for elision.
+  - (4épC)
+- l. 1403: _Karles li magnes en pluret , si se demente ._
+  - One final schwa should be apocopated, on _Karles_, _magnes_ or _pluret_?
+  - In a 4épC or 6épC configuration.
+- l. 1647: _De l' oree sele lé dous alves d' argent_
+  - Probably irregular apocope on _oree_ ('golden, made of gold' (DMF `oré1`)), which allows for a 4épC
+- l. 1743: _Ja cil d' Espaigne ne s' en deivent turner liez ._
+  - Apocope on _deivent_ (third plural person)
+  - 4épC
+- l. 1765: _Naimes li duc l' oïd , si l' escultent li Franc ._
+  - Apocope on _deivent_ (third plural person) (cf. l. 1765)
+  - still one extra syllable in the second colon
+- l. 1796: _D' osbercs e de helmes e d' espees a or ._
+  - Elision of _de_ before _helmes_?
+  - That would authorize an 4épC and made the line wellformed.
+- l. 2236: _Ço est l' arcevesque , que Deus mist en sun num ._
+  - Contraction in _ço est_
+  - 4épC
+- l. 2329: _Jo l' en cunquis e Escoce e Vales Islonde_
+  - Maybe an apocope in _Vales_, but there is still one extra syllable in the second colon.
+- l. 2437: _Josque Deus voeille que en cest camp revengum . »_
+  - Non-written elision in _que en_
+  - (4épC)
+- l. 2447: _Culchet sei a tere , si priet Damnedeu_
+  - Apocope on _culchet_?
+  - (4épC)
+- l. 2478: _Culchet sei a tere , sin ad Deu graciet ._
+  - Apocope on _culchet_?
+  - (4épC)
+  - same first colon as previous quoted line!
+- l. 2520: _N' i ad cheval ki puisset ester en estant :_
+  - Probably confusion _ester_ (<- STARE) ~ _estre_, which would allow for elision and wellformedness.
+  - (6épC, no need to search for precocious _-t_ deletion in _puisset_)
+- l. 2666: _Si hume li lodent , si li unt cunseillet ._
+  - Apocope on _hume_? The expected form is _hume_ (accusative singular), and _hom_ (nominative singular) would be a mistake of declention. Still, it would correct the line...
+  - (4épC)
+- l. 2678: _E a mei venget pur reconoistre sun feu ._
+  - Maybe apocope on _reconoistre_, or just ill-formed (prefix?)
+  - (4épC)
+- l. 2678: _Tant chevalcherent que en Sarraguce sunt ._
+  - Non written elision in _que en_
+  - (4épC)
+- l. 2883: _Guardet a la tere , veit sun nevold gesir ._
+  - precocious deletion of final _-t_ in _meinet_, which allows for elision.
+  - (4épC)
+- l. 3543: _Si vait ferir celui ki le dragun teneit ,_
+  - Probably _cil-celui_ alternation
+  - Still one extra syllable. Maybe contraction _ki le_ -> _kil_?
+    - To be checked.
+- l. 3646: _Or set il ben que elle n' est mais defendue ._
+  - Non written contraction in _que elle_
+  - Still one extra syllable.
+- l. 3675: _E Bramidonie , qu' il meinet en sa prisun ;_
+  - precocious deletion of final _-t_ in _meinet_, which allows for elision.
+  - (4épC)
+- l. 3742: _Dés ore cumencet le plait e les noveles_
+  - Probably _or-ore_ alternation. Not the first time!
+  - (4épC)
+- l. 3829: _Se or ad parent ki m' en voeille desmentir ,_
+  - Non written elision in _se or_
+  - apocope on _voeille_?
+- l. 3876: _Les alves turnent , les seles cheent a tere ._
+  - can be irregular apocope on _turnent_ (if 6épC) or _seles_ (if 4épC), but more probably:
+  - non metrification of _-ent_ in _cheent_ (= _choient_, "(they) fall").
+- l. 3970: _Quant li empereres ad faite sa venjance ,_
+  - contraction in _li empereres_
+  - (4épC)
+
+### m:13[10]
+- l. 400: _L' emperere meïsmes ad tut a sun talent ;_
+  - Probable apocope or syncope on _emperere_
+  - Still on extra syllable in the first colon to provoke 4épC.
+    - Note that _meïsme(s)_ with dieresis is the regular form.
+- l. 1496: _Li arcevesque brochet , par tant grant vasselage !_
+  - Contraction in _li arcevesque_
+  - Syncope/apocope (often needed) in _arcevesque_
+  - (4épC)
+- l. 3703: _As li Alde venue , une bele damisele ;_
+  - One extra no schwa syllable in the first colon.
+    - Apocope on _alde_ is not plausible, given the /ldv/ cluster it would create.
+  - Apocope on _une_ or _bele_ in the second colon?
 
 ## Cases of no-schwa vowel elided
 
@@ -661,6 +927,72 @@ This section collects irregularities that are probably/maybe not due to mistakes
 - l. 246: _Respunt dux Neimes : « Jo irai , par vostre dun !_
   - Contraction on _jo irai_
   - (4épC)
+- l. 383: _Er matin sedeit li emperere suz l' umbre ,_
+  - There is one non-schwa problem in the first colon
+  - The first colon can be repared by contraction or elision in _li emperere_
+- l. 459: _Que jo ne li die , se tant ai de leisir ,_
+  - Contraction of _jo ne_ in _jon_ (l. 3323)
+  - (4épC)
+- l. 460: _Que Charles li mandet , li reis poësteïfs :_
+  - Apocope on _Charles_
+  - (4épC)
+- l. 464: _Getet le a tere , sil receit Blancandrin ;_
+  - Apocope (and fall of final _-t_, but not sufficient by itself) in _Getet_?
+  - (4épC)
+- l. 490: _Ço est de Basan e de sun frere Basilie_
+  - Contraction in _ço est_
+  - **and** apocope in _frere Basilie_, where there is lax syntactic and prosodic connexion (a comma could be inserted there, meaning there could be a prosodic break)
+- l. 502: _Ses meillors humes en meinet ensembl' od sei ,_
+  - precocious deletion of final _-t_ in _meinet_, which allows for elision.
+  - (4épC)
+- l. 783: _Li empereres apelet ses niés Rollant :_
+  - Two solutions:
+    - Contraction in _li empereres_
+    - Apocope in _empereres_ or _apelet_
+  - (4épC or 6épC)
+- l. 1234: _Munjoie escriet , ço est l' enseigne Carlun ._
+  - Contraction in _ço est_
+  - (4épC)
+- l. 1368: _Que ses cumpainz Rollant li ad tant demandee ,_
+  - Maybe contraction in _li ad_, but still one extra syllable. May just be ill-formed.
+- l. 1436: _Ço est li granz dulors por la mort de Rollant ._
+  - Contraction in _ço est_
+  - Still one extra syllable. Probably _deul_ instead of _dulors_.
+- l. 1495: _Beste nen est nule ki encontre lui alge ._
+  - One extra syllable, probably in the first colon (in order to allow for a 4épC)
+  - But it can also be elsewhere if one applies contraction in _ki encontre_ (?)
+- l. 1832: _Li empereres chevalchet ireement_
+  - Contraction on _li empereres_
+  - Which allows for 6épC and made the line wellformed
+- l. 2352: _E li empereres en est e ber e riches . »_
+  - Contraction of _li empereres_
+  - 4épC
+- l. 2768: _U est Marsilie que jo aveie mandét ? »_
+  - Non written elision in _jo aveie_
+  - (4épC)
+- l. 3182: _Li altrer fut ocis le bon vassal Rollant_
+  - Contraction in _li altrer_
+  - Still one extra syllable: apocope on _altrer_? Or just ill-formed.
+- l. 3208: _Ço est de la tere ki fut al rei Flurit :_
+  - Contraction in _ço est_
+  - (4épC)
+- l. 3618: _Paien s' en turnent , ne volt Deus qu' il i remainent ._
+  - Maybe a problem with the /i/ sequence in _qu'il i_?
+  - Or a internal schwa deletion in _remainent_
+  - Or just an illformed line...
+- l. 3841: _Dist li empereres : « Bons pleges en demant . »_
+  - Contraction of _li emprereres_
+  - (4épC)
+- l. 3881: _Li uns requiert l' altre , n' unt mie des destrers ._
+  - Contraction in _li uns_
+  - (4épC)
+- l. 1496: _Li arcevesque brochet , par tant grant vasselage !_
+  - Contraction in _li arcevesque_
+  - Syncope/apocope (often needed) in _arcevesque_
+  - (4épC)
+- l. 2404: _Ive e Ivorie , que jo aveie tant chers ?_
+  - contraction in _jo aveie_
+  - (4épC)
 
 ## Cases of medial schwas not to analyse (in my PhD) but still to keep:
 
@@ -687,6 +1019,26 @@ This section collects irregularities that are probably/maybe not due to mistakes
   - could be due to syncope in _forsfesist_
   - or to deletion of the prefix (still semantically needed)
 
+### m:12[10]
+- l. 573: _En dulce France s' en repairerat li reis ;_
+  - Syncope in _repairerat_?
+  - (4épC)
+- l. 946: _E cil respundent : « A vostre comandement !_
+  - Two solutions:
+    - Syncope in _comandement_
+    - Or apocope on _vostre_
+  - (4épC)
+- l. 3618: _Paien s' en turnent , ne volt Deus qu' il i remainent ._
+  - Maybe a problem with the /i/ sequence in _qu'il i_?
+  - Or a internal schwa deletion in _remainent_
+  - Or just an illformed line...
+
+### m:13[10]
+- l. 1496: _Li arcevesque brochet , par tant grant vasselage !_
+  - Contraction in _li arcevesque_
+  - Syncope/apocope (often needed) in _arcevesque_
+  - (4épC)
+
 ## Problems with numbers
 There are often problems with numbers that are noted in latin style (e.g. .C. for _cent_) in the text. There have been re-writen in modern form (e.g. .C. -> _cent_) before the PAM has been applied, but composed numbers can take a _et_ between their members and there is apparently no rule to predict it. Also, numbers can generate other errors:
 - l. 2158: _Mais Veillantif unt en trente lius nafret_
@@ -696,7 +1048,24 @@ There are often problems with numbers that are noted in latin style (e.g. .C. fo
 - l. 1041: _Cil devant sunt .C. milie ad escuz ,_ : it is expected than elision apply in _milie ad_ -> /milad/. Probably the number must be read _cent et milie_, as it often happen in old and middle French. Modified as such in roland.txt.
 - others are modified without being reported here.
 
+### m:12[10]
+- l. 548: _Funt les enguardes a vingt milie chevalers ._
+  - _mil_ and not _milie_ (not caused by the PAM, it is written in the XML)
+  - (4épC)
+
 ## Other remarks
+
+### Lines > m:13[10]
+>Because it is higly improbable that lines with more than 13 metrified syllables can be corrected with final schwa irregularity, these lines are not analysed.
+
+#### m:14
+- l. 1847: _Deus ! quels seisante humes i ad en sa cumpaigne !_
+- l. 2290: _Aprés li dit : « Culvert paien , cum fus unkes si os_
+- l. 3659: _Fruissent les ymagenes e trestutes les ydeles :_
+
+#### m:15
+- l. 2073: _E wigres e darz e museras e agiez e gieser ._
+
 
 ### Anthroponyms
 - _Marsiliun_ is problematic:
@@ -740,6 +1109,9 @@ There are often problems with numbers that are noted in latin style (e.g. .C. fo
 - [x] Lines with less than 9 syllables
 - [x] Lines m:9
 - [ ] Check breaks in m:10?
-- [ ] Lines m:11 without 4épC and 6épC
+- [x] Lines m:11 without 4épC and 6épC
   - [ ] Check breaks in m:11 with 4épC and 6épC?
-- [ ] Lines m:12
+- [x] Lines m:12
+- [ ] Lines with more than 12 syllables
+- [ ] Add general stats
+- [ ] Produce statistic test to evaluate the influence of final schwa on the probability for a line to be ill-formed.

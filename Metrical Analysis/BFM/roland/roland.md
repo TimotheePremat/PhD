@@ -12,7 +12,7 @@ This document collects irregular lines in the _Chanson de Roland_, in the editio
 
 
 ## Overview
-|m:\_[10]|  Qté 	|  Taux  	|
+|m:\_[10]| quantity  	|  rate  	|
 |------	|:----:	|:------:	|
 | m:7  	|   2  	| 00.05% 	|
 | m:8  	|   4  	| 00.10% 	|
@@ -23,7 +23,7 @@ This document collects irregular lines in the _Chanson de Roland_, in the editio
 | m:13 	|  10  	| 00.25% 	|
 | m:14 	|   3  	| 00.08% 	|
 | m:15 	|   1  	| 00.03% 	|
-| _Σ_   |_3997_ | _100%_ 	|
+| _**Σ**_|_**3997**_|_**100%**_|
 
 >In the table above, lines that are scanned by the pam as m:11 with 4épC and/or 6épC have been added to m:10.
 

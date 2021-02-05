@@ -4,12 +4,81 @@ This document collects irregular lines in the _Chanson de Roland_, in the editio
 > [2] POGGIO, Enzo & Timothée PREMAT (2019). "Le PAM, un Programme d'Analyse Métrique pour le français médiéval", in: _Actes des Rencontres lyonnaises des jeunes chercheurs en linguistique historique_, directed by Timothée Premat & Ariane Pinche, Lyon: Diachronies contemporaines, 2019, pp. 59-70. ⟨[hal-02320550](https://hal.archives-ouvertes.fr/hal-02320550)⟩ ⟨[10.5281/zenodo.3464477](https://zenodo.org/record/3464477#.X_SJdDRudqu)⟩<br>
 > [3] _La Chanson de Roland_ (1990). Edited by Ian Short, Paris: Librairie Générale Française.
 
->Note that when several line numbers are given for a single line, the former is the line number in the `txt` file given in input to the PAM at the latter is the line number given in the `xml` file. There is indeed differences between the two numbering, as the `xml` file can count missing lines (e.g. if the editor knows there is a missing line but cannot edit it) while the `txt` file cannot. The difference between the two numberings are small (mostly from one to five lines), so even with only one numbering system the reader should easily find his way through it.
+### Introduction | How to read this document
 
->Note that metrical breaks are referred to with the PAM conventions: the position of the break is indicated by a number, and the type by the following: 'ma' for 'masculine' (oxytonic word before the break), 'épC' for 'epic break before a consonant-initial word', 'épV' for 'epic break before a vowel-initial word' (including <h> when it does not prohibit elision), 'ly' for 'lyric' and 'ej' for 'enjambante'. So that '4ma' mean that the break falls after the fourth syllable, which is the tonic of an oxytonic word, etc.
+#### What is this?
+This document is made of notes that are published only for reproducibility of research and for data broadcasting. It does not necessarily follow strict scientific writing principles, and does not have the value of a publication.
 
->Note that a line than can belong to several categories (because of incertainty of the analysis) or that does belong to several categories (because of several ill-formedness) is copied in its different categories. Only exception to that: all lines that are not in the 'Problems not related to schwas nor other weak vowels contraction' category could actually be in this category, as we can never be totally sure that an irregularity is due to phonological behavior and not to lapsus calami.
+#### Warning about quality
+I consider that I should not be blamed for any clumsy analysis contained is this document as **this is not a final analysis**. In my view, open science is more important than social pressure and fear to share non-completed stuff.
 
+Open-science is not (only) about increasing your readership and 'quotability', but about spreading data and stuff. In order to move forward together, as a positive academic community, we need to be able to share non-perfect work (or, in this case, work that is half-way between data and analysis) and not be blamed for it.
+
+#### Quoting this document
+If you use data and/or analysis proposed in this document, please quote it in a regular way. For now, I cannot guarantee that the GitHub repertory URL will stay fixed, so be aware that the URL you quote is not persistent. When my work will be advanced enough, I will consider using DOI for these documents.
+
+>PREMAT, Timothée ([year of last update]). "The _Chanson de Roland_: illformed lines", ms. Version: [date of the last commit of the file]. Url: https://github.com/TimotheePremat/PhD/blob/main/Metrical%20Analysis/BFM/roland/roland.md
+
+If you like this work and want to give me a real quotation (that counts for researchers metrics), you can quote one of the publication about the PAM (as [2] above, or more recent if available), as for instance, in full-text:
+
+> This example came from unplublished work by PREMAT (YYYY), which collects illformed lines of the text with a prosodic tagging and metrical analysis software (POGGIO & PREMAT, 2019).<br><br>
+>_Bibliography_<br>
+>- POGGIO, Enzo & Timothée PREMAT (2019). "Le PAM, un Programme d'Analyse Métrique pour le français médiéval", in: _Actes des Rencontres lyonnaises des jeunes chercheurs en linguistique historique_, directed by Timothée Premat & Ariane Pinche, Lyon: Diachronies contemporaines, 2019, pp. 59-70. ⟨[hal-02320550](https://hal.archives-ouvertes.fr/hal-02320550)⟩ ⟨[10.5281/zenodo.3464477](https://zenodo.org/record/3464477#.X_SJdDRudqu)⟩<br>
+- PREMAT, Timothée (YYYY). "The _Chanson de Roland_: illformed lines", ms. Version: [date of the last commit of the file]. Url: https://github.com/TimotheePremat/PhD/blob/main/Metrical%20Analysis/BFM/roland/roland.md
+
+#### Norms
+This document uses the following norms:
+- each ill-formed line detected by the PAM is humanly read and annotated
+- ill-formed lines are filtered by:
+  - first, the type of analysis we provide (typology of the probable cause(s) of illformedness of the line)
+  - then, the number of metrified syllables (m:_n_) detected by the PAM
+- a line that can belong to several categories (because of incertainty of the analysis) or that does belong to several categories (because of several ill-formedness) is copied in its different typological categories
+  - Only exception to that: all lines that are not in the 'Problems not related to schwas nor other weak vowels contraction' category could actually be in this category, as we can never be totally sure that an irregularity is due to phonological behaviour and not to _lapsus calami_ or other type of non-phonological source of illformedness.
+- we refer to metrical breaks with the PAM conventions:
+  - the position of the break is indicated by a number (the one the metrical position preceding it)
+  - the type of break is indicated by the following:
+    - `ma` for 'masculine' (oxytonic word before the break)
+    - `épC` for 'epic break before a consonant-initial word'
+    - `épV` for 'epic break before a vowel-initial word' (including _h_ when it does not prohibit elision*)
+    - `ly` for 'lyric' and 'ej' for 'enjambante'.
+  - For instance, `4ma` means that the break is located after the fourth syllable, which is the tonic of an oxytonic word.
+- line numbering:
+  - the PAM produce its own line-numbering, which is not necessarily consistent with the original line-numbering encoded in the `xml` file. This is due to te fact that the source file can number missing lines, while the PAM only numbers line that have content it can analyse.
+    - when only one line-numbering is given, it is the one of the PAM
+    - when two line-numberings are given, the first one is the one of the PAM and the second one is the one of the original `xml` file.
+    - differences between the two numberings are small (mostly from one to ten lines), so even with only one numbering system the reader should easily find his way through it.
+
+> *For an _h_ not to prohibit elision, it has to be overwritten by an other character into the PAM input of into the PAM `config` files. The character we chose is an superscript _h_: ʰ, which is not one of the consonants recognized by the PAM. This way, the PAM does not treat _h_ in a specific way, it just has in analysis' input some words that begins with an _h_ (consonant: blocks elision) and some that begins with an _ʰ_ (non-consonant: triggers elision).
+
+#### _Non-corrected_ and _corrected_ version of the text
+In the GitHub repertory, there are files that came from what we'll call the _non-corrected_ version of the text[1] and a folder that contains files that came from a _corrected_ version of the text. This document is mainly based on the non-corrected version of the text.
+- lines that remain uncorrected in the corrected version are preceded by an un-checked box:
+  - [ ] uncorrected line
+- lines that have been corrected in the corrected version of the text are preceded by a checked box:
+  - [x] corrected line (onyl in the `/corr` repertory)
+
+The overview section below allows comparison between the two version. All the differences between these stats came from lines with checked boxes; all lines with checked boxes create a difference between these stats. Corrections are intended to allow for calculation about final schwas irregularity that would be hidden in implicit conventions about writing (for instance, one can consider that elision of non-schwa vowel in _ço est_ -> /sɛst/ is optional but regular and does not require the line to be considered ill-formed).
+
+Correction obeys the following principles:
+- we do not correct lines by adding or deleting textual content (words, affixes, etc.)
+- for a line to be corrected, it should match all the following criteria:
+  - correction needs to be applicable to other ill-formed line also (frequency of the pattern)
+    - implies not to correct hapaxes[2]
+  - it needs to be phonologically and semantically consistent
+    - linguistic consistency of the pattern:
+      - do not create illegal phonological sequences
+      - do not create sequences that would have no meaning
+      - as far as possible, avoid loosing morphosyntactic information by correcting the line
+- when several correction are possible, one can be favoured based on:
+  - frequency:
+    - raw frequency:if one correction is more frequent than the other(s), prefer it.
+    - phrase frequency: if the problem is located in a formulaic phrase or colon, check if other occurrences have the same problem and allow for one solution rather than for the other(s); if so, prefer the one that work for the most occurrences.
+  - interventionism: if one correction implies less modification of the text in itself than the other(s), prefer it.
+    - for instance, if a syllable is missing and the line contains a compound number, prefer adding _et_ between two of the members of the number than adding something else elsewhere in the line (cf. `Problems with numbers` section near the end of the document)
+  - word status: prefer to correct a quite rare toponym or anthroponym rather than an usually steady common name.
+
+> [1] _Non-corrected version of the text_: this version is the raw version obtained by deleting the `xml` formatting: it has suffered several modification, as replacement of abbreviated numbers (including manual gender agreement of _un~une_) and replacement of elision triggering _h_ by _ʰ_.<br>
+> [2] Here, hapaxes mean that the order is not only not-attested in other texts but also not attested elswhere in the same text, of in too few occurrences are only in different phonological/metrical/prosodic/syntactic contexts.
 
 ## Overview
 >In the tables and figures in this section, lines that are scanned by the pam as m:11 with 4épC and/or 6épC have been added to m:10.<br>
@@ -30,7 +99,7 @@ This document collects irregular lines in the _Chanson de Roland_, in the editio
 | _**Σ**_|_**3997**_|_**100**_|
 
 <img src="distrib_meter.png" alt="Distribution of line lenght (plot)"
-	title="Distribution of line lenght (plot)" width="600" />
+	title="Distribution of line lenght (plot)" width="700" />
 
 ### After correction
 |meter | count|  rate|
@@ -44,7 +113,7 @@ This document collects irregular lines in the _Chanson de Roland_, in the editio
 | _**Σ**_|_**3997**_|_**100**_|
 
 <img src="corr/distrib_meter.png" alt="Distribution of line lenght (plot)"
-	title="Distribution of line lenght (plot)" width="600" />
+	title="Distribution of line lenght (plot)" width="700" />
 
 
 ## Problems in the edition

@@ -27,9 +27,12 @@ This document collects irregular lines in the _Chanson de Roland_, in the editio
 | m:13 	|  10  	| 0.25 	|
 | m:14 	|   3  	| 0.08 	|
 | m:15 	|   1  	| 0.03 	|
-| _**Σ**_|_**3997**_|_**100_|
+| _**Σ**_|_**3997**_|_**100**_|
 
-## After correction
+<img src="distrib_meter.png" alt="Distribution of line lenght (plot)"
+	title="Distribution of line lenght (plot)" width="600" />
+
+### After correction
 |meter | count|  rate|
 |:-----|-----:|-----:|
 |7     |     2|  0.05|
@@ -39,6 +42,9 @@ This document collects irregular lines in the _Chanson de Roland_, in the editio
 |11    |   131|  3.28|
 |12    |    64|  1.60|
 | _**Σ**_|_**3997**_|_**100**_|
+
+<img src="corr/distrib_meter.png" alt="Distribution of line lenght (plot)"
+	title="Distribution of line lenght (plot)" width="600" />
 
 
 ## Problems in the edition

@@ -10,7 +10,7 @@ library(ggrepel)
 library(Hmisc)
 
 #Set directory
-setwd("~/Documents/GitHub/PhD/Metrical Analysis/BFM/roland")
+setwd("~/Documents/GitHub/PhD/Metrical Analysis/BFM/roland_corr")
 
 #Import datasets
 ##Import global data
@@ -99,7 +99,7 @@ df_epC <- df_epC %>%
 
 #Prepare data for regression line (does not work with count numbers (in fake % shape).
 #PAM_tag_epC <- PAM_tag_epC %>%
- #   mutate(meter_cont = as.numeric(as.character(meter)))
+ #   mutate(meter_disc = as.numeric(as.character(meter)))
 
 #Import data for m:9
 #df_m9 <- read.table("m9.txt", header=T)
@@ -146,7 +146,7 @@ PAM_tag_epC <- PAM_tag_epC %>%
 PAM_tag_epC <- PAM_tag_epC %>%
     mutate(schwa_V_sum_disc = as_factor(schwa_V_sum))
 PAM_tag_epC <- PAM_tag_epC %>%
-    mutate(meter_cont = as_factor(meter))
+    mutate(meter_disc = as_factor(meter))
 
 cor.test(x = PAM_tag_epC$meter, y = PAM_tag_epC$schwa_C_sum, method="kendall")
 
@@ -228,7 +228,7 @@ YESNO_V <- ggplot(PAM_tag_epC, aes(x=meter, fill=schwa_V)) + geom_bar(position=p
 ##PERCENT_SCHWA = filled barplot with percentage of schwa per line and metrical status
 # D.a
 coefs_C <- coef(lm(percent_schwa_C ~ meter, data = PAM_tag_epC))
-PERCENT_SCHWA_C <- ggplot(PAM_tag_epC, aes(x=meter, y=percent_schwa_C, group=meter_cont)) +  geom_violin(fill="grey35",color="grey35") +
+PERCENT_SCHWA_C <- ggplot(PAM_tag_epC, aes(x=meter, y=percent_schwa_C, group=meter_disc)) +  geom_violin(fill="grey35",color="grey35") +
     labs(
         x="Line-type (num. of metrified syll. per line)",
         y="Percentage of final schwa among all syll.",
@@ -242,7 +242,7 @@ PERCENT_SCHWA_C <- ggplot(PAM_tag_epC, aes(x=meter, y=percent_schwa_C, group=met
 
 # D.e
 coefs_V <- coef(lm(percent_schwa_V ~ meter, data = PAM_tag_epC))
-PERCENT_SCHWA_V <- ggplot(PAM_tag_epC, aes(x=meter, y=percent_schwa_V, group=meter_cont)) +  geom_violin(fill="grey35",color="grey35") +
+PERCENT_SCHWA_V <- ggplot(PAM_tag_epC, aes(x=meter, y=percent_schwa_V, group=meter_disc)) +  geom_violin(fill="grey35",color="grey35") +
     labs(
         x="Line-type (num. of metrified syll. per line)",
         y="Percentage of final schwa among all syll.",
@@ -255,6 +255,14 @@ PERCENT_SCHWA_V <- ggplot(PAM_tag_epC, aes(x=meter, y=percent_schwa_V, group=met
     stat_summary(fun.y=mean, geom="point", shape=23, size=2, color="grey35", fill="white") +
     annotate("text", x = 13, y = 0.2, label = "\U25CA Mean value per line-type")
         #The wanted symbol is:U25C7, but it does not work... No time for this!
+
+##STATS = calculate and print general results as the PAM but with comprehension of 4épC and 6épC
+PAM_md <- PAM_tag_epC %>%
+    group_by(meter) %>%
+    summarise(count = n()) %>%
+    mutate(rate=sprintf("%0.2f", count/sum(count)*100))
+
+knitr::kable(head(PAM_md), "pipe", align = "lrr")
 
 ##ARRANGE: compiles plot on only one figure
 ###QUANTITY SCHWA for _C and _V
@@ -301,11 +309,11 @@ ALL_SCHWA <- ggarrange(
 
 #PRINT IT!
 ##Uncomment the plot you want to print. Leave all uncommented to print all plots.
-#LOC
-#    ggsave(LOC, filename = "loc_meter.png", width=25,height=10, units="cm", scale=1, dpi="retina")
+LOC
+    ggsave(LOC, filename = "loc_meter.png", width=25,height=10, units="cm", scale=1, dpi="retina")
 
-#DISTRIB_lines
-#    ggsave(DISTRIB_lines, filename = "distrib_meter.png", width=25, height=20.13, units="cm", scale=1, dpi="retina")
+DISTRIB_lines
+    ggsave(DISTRIB_lines, filename = "distrib_meter.png", width=25, height=20.13, units="cm", scale=1, dpi="retina")
 
 #NUM_SCHWA
 #    ggsave(NUM_SCHWA, filename = "num_schwa.png", width=25, height=12, units="cm", scale=1, dpi="retina")
@@ -337,7 +345,7 @@ LINE_SCHWA_V <- ggplot(PAM_tag_epC, aes(x=meter, y=schwa_C_sum_disc, color=schwa
 scale_color_grey() + scale_fill_grey() +
 theme_classic()
 
-PROB_C <- ggplot(PAM_tag_epC, aes(x=schwa_C_sum, fill=meter_cont, group=meter_cont)) + geom_bar(position="fill", color="grey") +
+PROB_C <- ggplot(PAM_tag_epC, aes(x=schwa_C_sum, fill=meter_disc, group=meter_disc)) + geom_bar(position="fill", color="grey") +
     geom_text(stat='count', aes(label=..count..), position = position_fill(vjust = .5), check_overlap=TRUE) +
     labs(
         x="Number of non-elided schwas per line",
@@ -350,7 +358,7 @@ PROB_C <- ggplot(PAM_tag_epC, aes(x=schwa_C_sum, fill=meter_cont, group=meter_co
     scale_fill_manual(values = c("grey10", "grey20", "grey30", "grey50", "grey70", "grey80", "grey90", "grey95", "white")) +
     theme(legend.position = "none")
 
-PROB_V <- ggplot(PAM_tag_epC, aes(x=schwa_V_sum, fill=meter_cont, group=meter_cont)) + geom_bar(position="fill", color="grey") +
+PROB_V <- ggplot(PAM_tag_epC, aes(x=schwa_V_sum, fill=meter_disc, group=meter_disc)) + geom_bar(position="fill", color="grey") +
     geom_text(stat='count', aes(label=..count..), position = position_fill(vjust = .5), check_overlap=TRUE) +
     labs(
         x="Number of elided schwas per line",

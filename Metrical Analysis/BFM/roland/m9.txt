@@ -1,0 +1,115 @@
+Analyse de ../../pam_corpus/clear_txt/roland.txt
+
+ 0  |0| 2  |0 | 0 |0 |1  1  2  0          	m:9[10]	3NA/4NA/5NA/6NA/7NA
+einz i frai un poi dë le·ge·ri·e          	num_l:300
+ 0 | 0    1 | 2 |0 | 2  ||1  1  2   0     	m:9[10]	3NA/4NA/5NA/6NA/7NA
+kar chas·cun jur dë mort  a·ban·du·net    	num_l:390
+ 1   2  | 1  2  -1 |2 | 2  | 2 ||1   2    	m:9[10]	3NA/4NA/5NA/6NA/7NA
+res·punt mar·si·lιe or dιet nus  or·rum   	num_l:424
+ 1  1   2  |0 ||1 1   2 |0 |2  0          	m:9[10]	3NA/4NA/5NA/6NA/7NA
+alt·re·ment në  a·me·rat il mi·e          	num_l:494
+ 2 |1   2 | 2  | 2   0 | 1   1   2        	m:9[10]	3NA/4NA/5NA/6NA/7NA
+ben se·rat fait gue·nes res·pun·dit       	num_l:632
+0 ||0 | 1    2    0  |  0   |0 |0 | 2     	m:9[10]	3NA/4NA/5NA/6NA/7NA
+ki  en con·duist·rent tresqu en la mer    	num_l:685
+0 |0 |  2   | 0 | 0 | 2 | 0  |1   2    0  	m:9[10]	3NA/4NA/5NA/6NA/7NA
+en un bruill par sum les puis re·mest·rent	num_l:714
+ 2   0 |0 |  2  ||2 | 0 | 2 | 1  2  0     	m:9[10]	3NA/4NA/5NA/6NA/7NA
+gue·nes li quens  ad sur lui sai·si·e     	num_l:721
+| 2 |0 |2  -1| 2 | 2    0 |1 1   2        	m:9[10]	3NA/4NA/5NA/6NA/7NA
+ enz dë sa·le uns velt·res a·va·lat       	num_l:730
+0 | 2  |1  2 | 0 | 0 | 2  |0 |  2         	m:9[10]	3NA/4NA/5NA/6NA/7NA
+në poet mu·er quë des oilz në plurt       	num_l:773
+0 | 2   0 | 1  1   2 |0 | 0 | 2   0       	m:9[10]	3NA/4NA/5NA/6NA/7NA
+në pla·cet dam·ne·deu në ses ang·les      	num_l:1089
+ 2 | 2   0 |0 |2   0  |  0  |0 |  2       	m:9[10]	3NA/4NA/5NA/6NA/7NA
+les ren·ges li ba·tent josqu as mains     	num_l:1158
+2| 1   0 | 2  ||2 | 2   -1|0| 1  2  0     	m:9[10]	3NA/4NA/5NA/6NA/7NA
+a quin·zë cols  ad frai·te ë per·du·e     	num_l:1323
+ 2  | 2   -1|0|2 |0| 2   -1|0| 1    2   0 	m:9[10]	3NA/4NA/5NA/6NA/7NA
+tant hans·te i ad ë frai·te ë sang·lent·e 	num_l:1398
+0 | 0  | 2  | 2 |1  2 | 0 | 1  2  0       	m:9[10]	3NA/4NA/5NA/6NA/7NA
+en tanz lius les a·vum nos por·te·es      	num_l:1463
+0  1  |0 |2 |0 | 2   0 | 1   2  0         	m:9[10]	3NA/4NA/5NA/6NA/7NA
+a·prof li ad sa bro·nιë desc·lo·se        	num_l:1619
+2 |2   0 |  2  |0| 1   2 |0|  2           	m:9[10]	3NA/4NA/5NA/6NA/7NA
+ja es·tes veilz ë flu·riz ë blancs        	num_l:1769
+|0|2 |0  1 |0 |1    2  |1  2  0           	m:9[10]	3NA/4NA/5NA/6NA/7NA
+ i ad i·cel në de·meint i·ran·ce          	num_l:1843
+0 | 0 | 1   2  | 0 | 0 | 1   2 | 2   0    	m:9[10]	3NA/4NA/5NA/6NA/7NA
+as vus rol·lant sur sun che·val pas·met   	num_l:1987
+ 0 | 1   1   2  | 1   2  | 0 | 0 |2   0   	m:9[10]	3NA/4NA/5NA/6NA/7NA
+sun cum·pai·gnun rol·lant sur tuz hu·mes  	num_l:2016
+1   1   2 | 2 | 0 | 1   2   0  | 2        	m:9[10]	3NA/4NA/5NA/6NA/7NA
+re·pai·rez est des mun·tai·gnes jus       	num_l:2038
+ 1    2 | 1    2  ||0 ||0 |2   0  | 2     	m:9[10]	3NA/4NA/5NA/6NA/7NA
+guar·dez sei·gnurs  il  en al·gent vif    	num_l:2059
+0 |  2  | 1   2  | 2 | 2  0 | 1    2      	m:9[10]	3NA/4NA/5NA/6NA/7NA
+li quens rol·lant fut nob·lë guer·rer     	num_l:2064
+ 0 |1   1    2 |  2   -1|0|1  1   2       	m:9[10]	3NA/4NA/5NA/6NA/7NA
+pur or·goil·los veint·re e es·ma·ιer      	num_l:2209
+0| 0 | 1   2 |  2   -1|0|1  1   2         	m:9[10]	3NA/4NA/5NA/6NA/7NA
+ë pur glu·tun veint·re e es·ma·ιer        	num_l:2211
+2 |0 | 2   -1|2  0 | 2 | 2 | 1   2  0     	m:9[10]	3NA/4NA/5NA/6NA/7NA
+ja la vost·re an·më nen ait suf·rai·te    	num_l:2255
+0 | 0 | 2  | 2  0 | 2 | 0  |1  2          	m:9[10]	3NA/4NA/5NA/6NA/7NA
+dë ses pers pri·et deu ques a·pelt        	num_l:2259
+ 2  | 2  |0 | 2 |0| 0  | 2  | 2 | 2   0   	m:9[10]	3NA/4NA/5NA/6NA/7NA
+halt sunt li pui ë mult halt les arb·res  	num_l:2269
+ 2 | 2 |0 | 2  |0|0 | 2  0 ||2   0        	m:9[10]	3NA/4NA/5NA/6NA/7NA
+met sei en pιez ë dë cur·rë  as·tet       	num_l:2275
+ 2  | 2  0 ||0 | 1   2 |1   2 | 2   0     	m:9[10]	3NA/4NA/5NA/6NA/7NA
+deus per·rë  en lai·ser hu·nir fran·ce    	num_l:2335
+ 1   0 | 2  |0  1  | 2 | 1  1  2  0       	m:9[10]	3NA/4NA/5NA/6NA/7NA
+cunt·rë cιel a·munt est res·or·ti·e       	num_l:2339
+  2  |1   1  2 |0 |0 | 2  ||2 | 2         	m:9[10]	3NA/4NA/5NA/6NA/7NA
+seint ga·bri·el dë sa main  ad pris       	num_l:2388
+ 2  | 1   2  | 0 | 2  0 | 1  1   2        	m:9[10]	3NA/4NA/5NA/6NA/7NA
+deus tra·mist sun ang·lë che·ru·bin       	num_l:2391
+0 | 2  -1|0 | 2  | 1   1   2 | 1   2      	m:9[10]	3NA/4NA/5NA/6NA/7NA
+li alt·re en vunt cunt·re·val flo·tant    	num_l:2470
+ 0 |0 | 2  |0 | 2 |0 | 2 | 2  |2  0       	m:9[10]	3NA/4NA/5NA/6NA/7NA
+par la noit la mer en est plus be·le      	num_l:2633
+2||1 1    2  |0 | 2  | 1  1  2            	m:9[10]	3NA/4NA/5NA/6NA/7NA
+a  a·mi·raill en vunt esf·re·et           	num_l:2765
+ 2 |2 | 1   2 |0|1  0 |0 | 2              	m:9[10]	3NA/4NA/5NA/6NA/7NA
+mei ai per·dut ë tu·të ma gent            	num_l:2832
+0 |1   2 |  0  | 2   0 | 2  |0 |2  0      	m:9[10]	3NA/4NA/5NA/6NA/7NA
+al ma·tin quant pri·mes pert li al·be     	num_l:2843
+0| 2   0 | 0 |1   2   0 | 1  2  0         	m:9[10]	3NA/4NA/5NA/6NA/7NA
+ë fran·cë cum re·mei·nes des·er·te        	num_l:2926
+ 1  0 | 2 | 2 |1 1  2 -1|0|2  0           	m:9[10]	3NA/4NA/5NA/6NA/7NA
+ent·rë les lur a·lu·e·e ë mi·se           	num_l:2939
+0 |  2  |0 | 2  | 2 | 1    2  | 2 | 2     	m:9[10]	3NA/4NA/5NA/6NA/7NA
+en quirs dë cerf les sei·gnurs unt mis    	num_l:2966
+ 0  | 2  | 1   2 |0| 2 |  2  | 1  2  0    	m:9[10]	3NA/4NA/5NA/6NA/7NA
+puis sunt mun·tez e unt grant scï·en·ce   	num_l:3001
+ 0 | 1   2  |2  0 | 2   0 | 1   2         	m:9[10]	3NA/4NA/5NA/6NA/7NA
+cil res·punt si·rë vost·rë mer·cit        	num_l:3206
+0|0 | 2  -1| 2 | 0 | 1   2 |0 | 2   0     	m:9[10]	3NA/4NA/5NA/6NA/7NA
+ë la dis·me est des bar·bez dë fron·de    	num_l:3257
+1   2 |1   2 |0 | 2 | 1   2 |2  0         	m:9[10]	3NA/4NA/5NA/6NA/7NA
+fe·rez ba·ron në vos tar·gez mi·e         	num_l:3363
+1  2 | 0 | 2  | 1   2 | 2  | 1   2        	m:9[10]	3NA/4NA/5NA/6NA/7NA
+ve·ez mun filz car·lun vait que·rant      	num_l:3372
+  0  |2|0 | 2  ||0 | 2 | 2  | 1  2  0     	m:9[10]	3NA/4NA/5NA/6NA/7NA
+josqu a la nuit  en ert fins otr·ιe·e     	num_l:3391
+0|0  1  | 2 | 1   2   0 | 0 | 2           	m:9[10]	3NA/4NA/5NA/6NA/7NA
+e a·prés sin enb·run·ket sun vis          	num_l:3500
+1   2   0 |2 |1  0 | 2  | 1   2   0       	m:9[10]	3NA/4NA/5NA/6NA/7NA
+ar·guil·lë si cu·më chen gla·tis·sent     	num_l:3522
+1  -1|0 | 2 |0 | 0 |1   2  | 1   2        	m:9[10]	3NA/4NA/5NA/6NA/7NA
+cu·me il est en sun pa·leis hal·çur       	num_l:3693
+
+1 ../../pam_corpus/clear_txt/roland.txt	m:10
+00.00% soit  0  /50 vers bien formés
+100.00% soit  50 /50 vers mal formés
+	- m:9[10]	100.00% soit  50 
+
+Distribution des césures pour 50 vers:
+	- 3NA	100.00% soit  50 
+	- 4NA	100.00% soit  50 
+	- 5NA	100.00% soit  50 
+	- 6NA	100.00% soit  50 
+	- 7NA	100.00% soit  50 
+

@@ -24,7 +24,7 @@ If you like this work and want to give me a real quotation (that counts for rese
 > This example came from unplublished work by PREMAT (YYYY), which collects illformed lines of the text with a prosodic tagging and metrical analysis software (POGGIO & PREMAT, 2019).<br><br>
 >_Bibliography_<br>
 >- POGGIO, Enzo & Timothée PREMAT (2019). "Le PAM, un Programme d'Analyse Métrique pour le français médiéval", in: _Actes des Rencontres lyonnaises des jeunes chercheurs en linguistique historique_, directed by Timothée Premat & Ariane Pinche, Lyon: Diachronies contemporaines, 2019, pp. 59-70. ⟨[hal-02320550](https://hal.archives-ouvertes.fr/hal-02320550)⟩ ⟨[10.5281/zenodo.3464477](https://zenodo.org/record/3464477#.X_SJdDRudqu)⟩<br>
-- PREMAT, Timothée (YYYY). "The _Chanson de Roland_: illformed lines", ms. Version: [date of the last commit of the file]. Url: https://github.com/TimotheePremat/PhD/blob/main/Metrical%20Analysis/BFM/roland/roland.md
+>- PREMAT, Timothée (YYYY). "The _Chanson de Roland_: illformed lines", ms. Version: [date of the last commit of the file]. Url: https://github.com/TimotheePremat/PhD/blob/main/Metrical%20Analysis/BFM/roland/roland.md
 
 #### Norms
 This document uses the following norms:
@@ -39,7 +39,7 @@ This document uses the following norms:
   - the type of break is indicated by the following:
     - `ma` for 'masculine' (oxytonic word before the break)
     - `épC` for 'epic break before a consonant-initial word'
-    - `épV` for 'epic break before a vowel-initial word' (including _h_ when it does not prohibit elision*)
+    - `épV` for 'epic break before a vowel-initial word' (including _h_ when it does not prohibit elision[1])
     - `ly` for 'lyric' and 'ej' for 'enjambante'.
   - For instance, `4ma` means that the break is located after the fourth syllable, which is the tonic of an oxytonic word.
 - line numbering:
@@ -48,7 +48,7 @@ This document uses the following norms:
     - when two line-numberings are given, the first one is the one of the PAM and the second one is the one of the original `xml` file.
     - differences between the two numberings are small (mostly from one to ten lines), so even with only one numbering system the reader should easily find his way through it.
 
-> *For an _h_ not to prohibit elision, it has to be overwritten by an other character into the PAM input of into the PAM `config` files. The character we chose is an superscript _h_: ʰ, which is not one of the consonants recognized by the PAM. This way, the PAM does not treat _h_ in a specific way, it just has in analysis' input some words that begins with an _h_ (consonant: blocks elision) and some that begins with an _ʰ_ (non-consonant: triggers elision).
+> [1] For an _h_ not to prohibit elision, it has to be overwritten by an other character into the PAM input of into the PAM `config` files. The character we chose is an superscript _h_: ʰ, which is not one of the consonants recognized by the PAM. This way, the PAM does not treat _h_ in a specific way, it just has in analysis' input some words that begins with an _h_ (consonant: blocks elision) and some that begins with an _ʰ_ (non-consonant: triggers elision).
 
 #### _Non-corrected_ and _corrected_ version of the text
 In the GitHub repertory, there are files that came from what we'll call the _non-corrected_ version of the text[1] and a folder that contains files that came from a _corrected_ version of the text. This document is mainly based on the non-corrected version of the text.

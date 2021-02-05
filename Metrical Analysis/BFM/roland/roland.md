@@ -4,17 +4,17 @@ This document collects irregular lines in the _Chanson de Roland_, in the editio
 > [2] POGGIO, Enzo & Timothée PREMAT (2019). "Le PAM, un Programme d'Analyse Métrique pour le français médiéval", in: _Actes des Rencontres lyonnaises des jeunes chercheurs en linguistique historique_, directed by Timothée Premat & Ariane Pinche, Lyon: Diachronies contemporaines, 2019, pp. 59-70. ⟨[hal-02320550](https://hal.archives-ouvertes.fr/hal-02320550)⟩ ⟨[10.5281/zenodo.3464477](https://zenodo.org/record/3464477#.X_SJdDRudqu)⟩<br>
 > [3] _La Chanson de Roland_ (1990). Edited by Ian Short, Paris: Librairie Générale Française.
 
-### Introduction | How to read this document
+## Introduction | How to read this document
 
-#### What is this?
+### What is this?
 This document is made of notes that are published only for reproducibility of research and for data broadcasting. It does not necessarily follow strict scientific writing principles, and does not have the value of a publication.
 
-#### Warning about quality
+### Warning about quality
 I consider that I should not be blamed for any clumsy analysis contained is this document as **this is not a final analysis**. In my view, open science is more important than social pressure and fear to share non-completed stuff.
 
 Open-science is not (only) about increasing your readership and 'quotability', but about spreading data and stuff. In order to move forward together, as a positive academic community, we need to be able to share non-perfect work (or, in this case, work that is half-way between data and analysis) and not be blamed for it.
 
-#### Quoting this document
+### Quoting this document
 If you use data and/or analysis proposed in this document, please quote it in a regular way. For now, I cannot guarantee that the GitHub repertory URL will stay fixed, so be aware that the URL you quote is not persistent. When my work will be advanced enough, I will consider using DOI for these documents.
 
 >PREMAT, Timothée ([year of last update]). "The _Chanson de Roland_: illformed lines", ms. Version: [date of the last commit of the file]. Url: https://github.com/TimotheePremat/PhD/blob/main/Metrical%20Analysis/BFM/roland/roland.md
@@ -26,7 +26,7 @@ If you like this work and want to give me a real quotation (that counts for rese
 >- POGGIO, Enzo & Timothée PREMAT (2019). "Le PAM, un Programme d'Analyse Métrique pour le français médiéval", in: _Actes des Rencontres lyonnaises des jeunes chercheurs en linguistique historique_, directed by Timothée Premat & Ariane Pinche, Lyon: Diachronies contemporaines, 2019, pp. 59-70. ⟨[hal-02320550](https://hal.archives-ouvertes.fr/hal-02320550)⟩ ⟨[10.5281/zenodo.3464477](https://zenodo.org/record/3464477#.X_SJdDRudqu)⟩<br>
 >- PREMAT, Timothée (YYYY). "The _Chanson de Roland_: illformed lines", ms. Version: [date of the last commit of the file]. Url: https://github.com/TimotheePremat/PhD/blob/main/Metrical%20Analysis/BFM/roland/roland.md
 
-#### Norms
+### Norms
 This document uses the following norms:
 - each ill-formed line detected by the PAM is humanly read and annotated
 - ill-formed lines are filtered by:
@@ -50,7 +50,7 @@ This document uses the following norms:
 
 > [1] For an _h_ not to prohibit elision, it has to be overwritten by an other character into the PAM input of into the PAM `config` files. The character we chose is an superscript _h_: ʰ, which is not one of the consonants recognized by the PAM. This way, the PAM does not treat _h_ in a specific way, it just has in analysis' input some words that begins with an _h_ (consonant: blocks elision) and some that begins with an _ʰ_ (non-consonant: triggers elision).
 
-#### _Non-corrected_ and _corrected_ version of the text
+### _Non-corrected_ and _corrected_ version of the text
 In the GitHub repertory, there are files that came from what we'll call the _non-corrected_ version of the text[1] and a folder that contains files that came from a _corrected_ version of the text. This document is mainly based on the non-corrected version of the text.
 - lines that remain uncorrected in the corrected version are preceded by an un-checked box:
   - [ ] uncorrected line

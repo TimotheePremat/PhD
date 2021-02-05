@@ -55,7 +55,7 @@ In the GitHub repertory, there are files that came from what we'll call the _non
 - lines that remain uncorrected in the corrected version are preceded by an un-checked box:
   - [ ] uncorrected line
 - lines that have been corrected in the corrected version of the text are preceded by a checked box:
-  - [x] corrected line (onyl in the `/corr` repertory)
+  - [x] corrected line (only in the `/corr` repertory)
 
 The overview section below allows comparison between the two version. All the differences between these stats came from lines with checked boxes; all lines with checked boxes create a difference between these stats. Corrections are intended to allow for calculation about final schwas irregularity that would be hidden in implicit conventions about writing (for instance, one can consider that elision of non-schwa vowel in _ço est_ -> /sɛst/ is optional but regular and does not require the line to be considered ill-formed).
 
@@ -110,6 +110,9 @@ Correction obeys the following principles:
 |10    |  3732| 93.37|
 |11    |   131|  3.28|
 |12    |    64|  1.60|
+|13    |     9|  0.23|
+|14    |     3|  0.08|
+|15    |     1|  0.03|
 | _**Σ**_|_**3997**_|_**100**_|
 
 <img src="corr/distrib_meter.png" alt="Distribution of line lenght (plot)"

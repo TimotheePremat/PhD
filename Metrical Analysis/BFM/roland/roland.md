@@ -18,16 +18,16 @@ This document collects irregular lines in the _Chanson de Roland_, in the editio
 ### Before correction
 |meter | count|  rate|
 |:-----|-----:|-----:|
-| m:7  	|   2  	| 00.05% 	|
-| m:8  	|   4  	| 00.10% 	|
-| m:9  	|  50  	| 01.25% 	|
-| m:10 	| 3666 	| 91.72% 	|
-| m:11 	|  170 	| 05.00% 	|
-| m:12 	|  91  	| 02.28% 	|
-| m:13 	|  10  	| 00.25% 	|
-| m:14 	|   3  	| 00.08% 	|
-| m:15 	|   1  	| 00.03% 	|
-| _**Σ**_|_**3997**_|_**100%**_|
+| m:7  	|   2  	| 0.05 	|
+| m:8  	|   4  	| 0.10 	|
+| m:9  	|  50  	|1.25 	|
+| m:10 	| 3666 	| 91.72 	|
+| m:11 	|  170 	| 5.00 	|
+| m:12 	|  91  	| 2.28 	|
+| m:13 	|  10  	| 0.25 	|
+| m:14 	|   3  	| 0.08 	|
+| m:15 	|   1  	| 0.03 	|
+| _**Σ**_|_**3997**_|_**100_|
 
 ## After correction
 |meter | count|  rate|
@@ -38,7 +38,7 @@ This document collects irregular lines in the _Chanson de Roland_, in the editio
 |10    |  3732| 93.37|
 |11    |   131|  3.28|
 |12    |    64|  1.60|
-| _**Σ**_|_**3997**_|_**100%**_|
+| _**Σ**_|_**3997**_|_**100**_|
 
 
 ## Problems in the edition

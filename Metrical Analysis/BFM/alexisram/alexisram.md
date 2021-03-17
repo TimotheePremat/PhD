@@ -318,7 +318,7 @@ This section collects irregularities that are probably/maybe not due to mistakes
 
 ### m:13[10]
 
-## <a> for <e>
+## `a` for `e`
 ### m:11[10]
 - [ ] l. 20: _des melz gentils de tuta la cuntretha ._
 - [ ] l. 29: _de sain batesma l' unt fait regenerer ,_
@@ -329,7 +329,7 @@ This section collects irregularities that are probably/maybe not due to mistakes
   - _ela_ (and _cambra_, with no incidence on the line's wellformedness)
 - [ ] l. 150: _quant n' ai tun filz , ansembl' ot tei voil estra . »_
 - [x] l. 194: estra
-  - corrected because elision is needed and PAM can only elide <e> vowels.
+  - corrected because elision is needed and PAM can only elide `e` vowels.
 - medra
 - [x] pedra
   - [x] l. 101
@@ -353,7 +353,7 @@ This section collects irregularities that are probably/maybe not due to mistakes
 - [ ] l. 586: _Or n' estot dire del pedra e de la medra_
 - [ ] l. 603: _od la pulcela dunt il se fist si estranges ._
 
-## <o> for <e>
+## `o` for `e`
 - [x] l. 607: _fist cel saint homo en cesta mortel vide ,_
 
 ## Other remarks
